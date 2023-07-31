@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+h2{
+    font-weight: normal;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+/*---all secation commont width and height---*/
+section{
+    width: 100vw;
+    height: 100vh;
+}
+
+/*----colors---*/
+#home{background: #fff;}
+#education{background: #fff;}
+#skills{background: #fff;}
+#project{background: #fff;}
+#contact{background: rgb(237, 233, 233);}
+
+/*secation home child header decaretions*/
+header{
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    height: 70px;
+    position: fixed;
+    background-color: #f67c92;
+
+}
+
+header a img{
+    width: 100px;
+    padding: 10px;
+    
+}
+
+#education,#skills,#project,#contact{
+    padding-top: 70px;
+}
+
+
+#menu li{
+    list-style: none;
+    display: inline-block;
+    justify-content: center;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+#menu li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: medium;
+    
+}
+
+.image{
+    height: 100vh;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.container{
+    padding-top: 20%;
+    padding: 250px 50px;
+   
+}
+.text{
+    width: 400px;
+    background-color: red;
+}
+.text h4,p{
+    padding-top: 10px;
+}
